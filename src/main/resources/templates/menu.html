@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Fact or Cap</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Начальный экран</h1>
+<div>Вы вошли как <span th:text="${currentUser.getName()}" /> </div>
+<div>Показать <a href="/statistics">статистику</a> </div>
+<div>Показать <a href="/leaderboard">лидеров</a> </div>
+<div><a href="/play">Играть</a> </div>
+<a href="/">Вернуться</a>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+  <title>Fact or Cap</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Начальная страница входа</h1>
+
+<div>Войти как <a href="/menu"><span th:text="${currentUser.getName()}" /> </a></div>
+<h1>Ввести имя</h1>
+  <form action="#" th:action="@{/}" th:object="${newUser}" method="post">
+    <p>Имя: <input type="text" th:field="*{name}" /></p>
+    <p><input type="submit" value="Войти" />
+  </form>
+</body>
+</html>
