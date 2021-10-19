@@ -1,6 +1,6 @@
 @font-face {
     font-family: BlackOpsOne;
-    src: url("../fonts/BlackOpsone-Regular.ttf");
+    src: url("../fonts/BlackOpsOne-Regular.ttf");
 }
 body{
     background-image: url("../images/background_image_1.svg");
@@ -32,7 +32,8 @@ body{
     border-radius: 100px;
     font-family: BlackOpsOne;
     font-size: 20px;
-    box-shadow: 2px 2px grey;
+    -webkit-filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.25));
     width:200px;
     height: 60px;
     color: white;
