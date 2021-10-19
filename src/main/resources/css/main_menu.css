@@ -1,0 +1,50 @@
+@font-face {
+    font-family: BlackOpsOne;
+    src: url("../fonts/BlackOpsone-Regular.ttf");
+}
+body{
+    background-image: url("../images/background_image_1.svg");
+    width: 800px;
+    height: 400px;
+}
+.game_logo{
+    position: absolute;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    width: 230px;
+    height: 230px;
+    -webkit-filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.25));
+    overflow: visible;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.background_image {
+    width: 1439px;
+    height: 1079px;
+}
+.main_menu_button {
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 100px;
+    font-family: BlackOpsOne;
+    font-size: 20px;
+    box-shadow: 2px 2px grey;
+    width:200px;
+    height: 60px;
+    color: white;
+}
+.div_main_buttons_holder{
+    text-align: center;
+    margin-top: 250px;
+    position: absolute;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    width: 400px;
+    height: 250px;
+}

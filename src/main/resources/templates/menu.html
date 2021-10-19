@@ -1,15 +1,21 @@
 <!DOCTYPE HTML>
-<html xmlns:th="https://www.thymeleaf.org">
-<head>
-    <title>Fact or Cap</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-</head>
-<body>
-<h1>Начальный экран</h1>
-<div>Вы вошли как <span th:text="${currentUser.getName()}" /> </div>
-<div>Показать <a href="/statistics">статистику</a> </div>
-<div>Показать <a href="/leaderboard">лидеров</a> </div>
-<div><a href="/play">Играть</a> </div>
-<a href="/">Вернуться</a>
-</body>
+<html xmlns:th="https://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+    <link rel="stylesheet" href="../css/main_menu.css">
+    <head>
+        <title>Fact or Cap</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+    <body>
+        <img class="game_logo" src="../images/game_logo.png">
+        <div class="div_main_buttons_holder">
+            <!--<h1>Начальный экран</h1>
+            <label>Вы вошли как <span th:text="${currentUser.getName()}" /> </label>-->
+            <Button class="main_menu_button" style="background: rgba(25, 255, 91, 0.85);">Play</Button><br/>
+            <Button class="main_menu_button" style="background: rgba(0, 0, 0, 0.85);">Stats</Button><br/>
+            <Button class="main_menu_button" style="background: rgba(235, 0, 0, 0.85);">Leaderboard</Button><br/>
+            <!--<a href="/">Вернуться</a>-->
+
+        </div>
+
+    </body>
 </html>
